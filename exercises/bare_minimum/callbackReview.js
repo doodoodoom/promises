@@ -14,7 +14,7 @@ var pluckFirstLineFromFile = function (filePath, callback) {
       callback(err, content.split('\n')[0]);
     }
   });
-}
+};
   
 
 
